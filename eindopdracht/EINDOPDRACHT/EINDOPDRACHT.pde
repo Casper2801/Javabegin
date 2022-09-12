@@ -1,4 +1,4 @@
-float gewicht = 70;
+float gewicht = 70  ;
 float lengte = 1.92;
 float leeftijd = 19;
 float BMI = 0;
