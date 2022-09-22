@@ -28,7 +28,7 @@ int scoreL = 0;
 int scoreR = 0;
 
 // win conditions 
-int win = 2;
+int win = 3;
 
 void setup(){
   size(800,800);
@@ -58,7 +58,7 @@ void setup(){
 }
 
 void draw(){
-  background(0);
+  background(0,0,255);
   //Mid Line  
     stroke(255);   
     line(400,0,400,800);
@@ -158,7 +158,7 @@ void gameOver(String text){
   speedx = 0;
   speedy = 0;
   
-  fill(255);
+  fill(0);
   text("game over", width/2, height/3 -40);
   text(text, width/2,height/3);
   text("klik hier om nog een keer te spelen", width/2,height/3 + 40);
